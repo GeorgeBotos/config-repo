@@ -11,4 +11,4 @@ management:
         include: refresh
 
 polar:
-  greeting: "Welcome to the catalog from the UPDATED config server"
+  greeting: "Welcome to the catalog from the config server"

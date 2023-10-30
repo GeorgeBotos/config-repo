@@ -1,2 +1,14 @@
+spring:
+  datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:5432/polardb_catalog
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
 polar:
   greeting: "Welcome to the catalog from the UPDATED config server"
